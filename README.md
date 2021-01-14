@@ -7,3 +7,4 @@ Hello City!
 Hello Block!
 Hello House!
 Hello Room!
+Hello Closet!
