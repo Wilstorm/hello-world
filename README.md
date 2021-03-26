@@ -33,8 +33,8 @@ python pi_shader_configs.py \<*core*\> \<*shader*\> \<*screen width*\> \<*screen
   * screen height (i.e. *1080* or *leave blank*)
 
 **Core:**
-  * mame2000-libretro = *mame2000*
-  * mame2003-libretro = *mame2003*
+  * mame2000-libretro **=** *mame2000*
+  * mame2003-libretro **=** *mame2003*
   * mame2003-plus-libretro = *2003plus*
   * mame2010-libretro = *mame2010*
   * mame2015-libretro = *mame2015*
