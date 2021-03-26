@@ -19,7 +19,7 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
   * mame2010-libretro (based on MAME 0.139)<br>
   * mame2015-libretro (based on MAME 0.160)<br>
   * mame2016-libretro (based on MAME 0.174)<br>
-  * consoles* *(currently only Nestopia/NES)<br>
+  * consoles (currently only Nestopia/NES)<br>
 
 ### Usage:
 
