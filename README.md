@@ -15,7 +15,7 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
 
 mame2000-libretro *(based on MAME 0.37b5)*<br>
 mame2003-libretro *(based on MAME 0.78)*<br>
-mame2003-plus-libretro *(based on MAME 0.78 + plus additions)*<br>
+mame2003-plus-libretro *(based on MAME 0.78 + additions)*<br>
 mame2010-libretro *(based on MAME 0.139)*<br>
 mame2015-libretro *(based on MAME 0.160)*<br>
 mame2016-libretro *(based on MAME 0.174)*<br>
