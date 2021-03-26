@@ -13,13 +13,13 @@ Hello Closet!<br>
 
 This script creates cfg files for optimum shader appearence for use with RetroPie. Works with the following cores:
 
-mame2000-libretro (based on MAME 0.37b5)<br>
-mame2003-libretro (based on MAME 0.78)<br>
-mame2003-plus-libretro (based on MAME 0.78 + plus additions)<br>
-mame2010-libretro (based on MAME 0.139)<br>
-mame2015-libretro (based on MAME 0.160)<br>
-mame2016-libretro (based on MAME 0.174)<br>
-consoles (currently only Nestopia/NES)<br>
+mame2000-libretro *(based on MAME 0.37b5)*<br>
+mame2003-libretro *(based on MAME 0.78)*<br>
+mame2003-plus-libretro *(based on MAME 0.78 + plus additions)*<br>
+mame2010-libretro *(based on MAME 0.139)*<br>
+mame2015-libretro *(based on MAME 0.160)*<br>
+mame2016-libretro *(based on MAME 0.174)*<br>
+consoles *(currently only Nestopia/NES)*<br>
 
 ### Usage:
 
