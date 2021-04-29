@@ -25,31 +25,31 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * -y \<*screen height*\>
 
 ### Core:
-  * *mame2000*
-  * *mame2003*
-  * *2003plus*
-  * *mame2010*
-  * *mame2015*
-  * *mame2016*
-  * *fba2012*
-  * *fbneo*
-  * *consoles*
+  * mame2000
+  * mame2003
+  * 2003plus
+  * mame2010
+  * mame2015
+  * mame2016
+  * fba2012
+  * fbneo
+  * consoles
 
 ### Shader:
   * crtpi (*default*)
   * zfast
 
 ### Curvature:
-  * *true*
-  * *false* (default)
+  * true
+  * false (*default*)
 
 ### Screen Width:
   Uneeded/ignored if curvature is true.
-  * *any width* (default=1920)
+  * screen width (*default=1920*)
 
 ### Screen Height:
   Uneeded/ignored if curvature is true.
-  * *any height* (default=1080)
+  * screen height (*default=1080*)
 
 ## Examples:
 
