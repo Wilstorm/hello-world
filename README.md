@@ -18,7 +18,8 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
 
 ## Parameters:
 
-  * \<*core*\> (required; the rest are optional)
+  * core is required; the rest are optional
+  * \<*core*\>
   * -s \<*shader*\>
   * -c \<*curvature*\>
   * -x \<*screen width*\>
