@@ -17,8 +17,7 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
 python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*screen width*\> -y \<*screen height*\>
 
 ## Parameters:
-
-  core is required; the rest are optional
+  Core is required; the rest are optional.
   * \<*core*\>
   * -s \<*shader*\>
   * -c \<*curvature*\>
@@ -45,10 +44,12 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * *false* (default)
 
 ### Screen Width:
-  * *any width* (default=1920 -- uneeded/ignored if curvature is true)
+  Uneeded/ignored if curvature is true.
+  * *any width* (default=1920)
 
 ### Screen Height:
-  * *any height* (default=1080 -- uneeded/ignored if curvature is true)
+  Uneeded/ignored if curvature is true.
+  * *any height* (default=1080)
 
 ## Examples:
 
