@@ -25,15 +25,15 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * -y \<*screen height*\>
 
 ### Core:
-  * mame2000-libretro = *mame2000*
-  * mame2003-libretro = *mame2003*
-  * mame2003-plus-libretro = *2003plus*
-  * mame2010-libretro = *mame2010*
-  * mame2015-libretro = *mame2015*
-  * mame2016-libretro = *mame2016*
-  * fbalpha2012-libretro = *fba2012*
-  * FBNeo-libretro = *fbneo*
-  * Nestopia/NES = *consoles*
+  * *mame2000*
+  * *mame2003*
+  * *2003plus*
+  * *mame2010*
+  * *mame2015*
+  * *mame2016*
+  * *fba2012*
+  * *fbneo*
+  * *consoles*
 
 ### Shader:
   * *crtpi* (default)
