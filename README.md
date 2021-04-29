@@ -36,8 +36,8 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * *consoles*
 
 ### Shader:
-  * *crtpi* (default)
-  * *zfast*
+  * crtpi (*default*)
+  * zfast
 
 ### Curvature:
   * *true*
