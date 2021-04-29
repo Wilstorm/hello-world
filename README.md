@@ -3,18 +3,18 @@
 This script creates cfg files for optimum shader appearence for use with RetroPie. Works with the following cores:
 
   **mame2000-libretro** *(based on MAME 0.37b5)*<br>
-  mame2003-libretro *(based on MAME 0.78)*<br>
-  mame2003-plus-libretro *(based on MAME 0.78 + additions)*<br>
-  mame2010-libretro *(based on MAME 0.139)*<br>
-  mame2015-libretro *(based on MAME 0.160)*<br>
-  mame2016-libretro *(based on MAME 0.174)*<br>
-  fbalpha2012-libretro *(based on FB Alpha 0.2.97.30)*<br>
-  fbneo-libretro *(based on FinalBurn Neo current ver.)*<br>
-  consoles *(currently only Nestopia/NES)*<br>
+  **mame2003-libretro** *(based on MAME 0.78)*<br>
+  **mame2003-plus-libretro** *(based on MAME 0.78 + additions)*<br>
+  **mame2010-libretro** *(based on MAME 0.139)*<br>
+  **mame2015-libretro** *(based on MAME 0.160)*<br>
+  **mame2016-libretro** *(based on MAME 0.174)*<br>
+  **fbalpha2012-libretro** *(based on FB Alpha 0.2.97.30)*<br>
+  **fbneo-libretro** *(based on FinalBurn Neo current ver.)*<br>
+  **consoles** *(currently only Nestopia/NES)*<br>
 
 ### Usage:
 
-python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*screen width*\> -y \<*screen height*\>
+python retropie_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*screen width*\> -y \<*screen height*\>
 
 ## Parameters:
   Core is a required parameter; the rest are optional.
@@ -55,21 +55,21 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
 
 Clone into a directory, navigate to that directory from a command prompt, and then run the script. Some examples are shown below:
 
-  ```python pi_shader_configs.py mame2003 -s crtpi -x 1920 -y 1080```  
+  ```python retropie_shader_configs.py mame2003 -s crtpi -x 1920 -y 1080```  
 
-  ```python pi_shader_configs.py mame2003 -s crtpi -c true```  
+  ```python retropie_shader_configs.py mame2003 -s crtpi -c true```  
 
-  ```python pi_shader_configs.py 2003plus -s zfast -x 1280 -y 720```  
+  ```python retropie_shader_configs.py 2003plus -s zfast -x 1280 -y 720```  
 
-  ```python pi_shader_configs.py 2003plus -s zfast -c true```  
+  ```python retropie_shader_configs.py 2003plus -s zfast -c true```  
 
-  ```python pi_shader_configs.py fbneo -s crtpi -c false -x 1920 -y 1080```  
+  ```python retropie_shader_configs.py fbneo -s crtpi -c false -x 1920 -y 1080```  
 
-  ```python pi_shader_configs.py fbneo```  
+  ```python retropie_shader_configs.py fbneo```  
 
 This will create a folder with the resolution, i.e., *1920x1080* (or *curvature*). Beneath that folder will be another subfolder with the core name, i.e., *MAME 2003 (0.78)*. The individual cfg files are stored in the core subfolder. When the script completes it will print the path where you should transfer the files within RetroPie.
 
-There's also a bat file (pi_shader_configs.bat) you may use to generate the cfg files. It will generate the cfg and zip files containing the same information in the root. You may modify the bat file to fit you needs for different cores, shaders and resolutions. Take a look at the bat file for examples, it's fairly self-explanatory.
+There's also a bat file (retropie_shader_configs.bat) you may use to generate the cfg files. It will generate the cfg and zip files containing the same information in the root. You may modify the bat file to fit you needs for different cores, shaders and resolutions. Take a look at the bat file for examples, it's fairly self-explanatory.
 
 For information and an explanation on how the cfg files improve shaders see the official RetroPie forum thread located [here.](https://retropie.org.uk/forum/topic/4046/crt-pi-shader-users-reduce-scaling-artifacts-with-these-configs-in-lr-mame2003-lr-fbalpha-lr-nestopia-and-more-to-come) You can also view additional information from the RetroPie documentation on "Shaders and Smoothing" [here.](https://retropie.org.uk/docs/Shaders-and-Smoothing/)
 
