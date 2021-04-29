@@ -1,6 +1,6 @@
 # RetroPie Shader Config Files
 
-This script creates cfg files for optimum shader appearence for use with RetroPie. Works with the following cores:
+This script creates cfg files for optimum shader appearence for use with RetroPie Libretro cores. Works with the following cores:
 
   **mame2000-libretro** *(based on MAME 0.37b5)*<br>
   **mame2003-libretro** *(based on MAME 0.78)*<br>
@@ -8,8 +8,8 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
   **mame2010-libretro** *(based on MAME 0.139)*<br>
   **mame2015-libretro** *(based on MAME 0.160)*<br>
   **mame2016-libretro** *(based on MAME 0.174)*<br>
-  **fbalpha2012-libretro** *(based on FB Alpha 0.2.97.30)*<br>
-  **fbneo-libretro** *(based on FinalBurn Neo current ver.)*<br>
+  **fbalpha2012** *(based on FB Alpha 0.2.97.30)*<br>
+  **fbneo** *(based on FinalBurn Neo)*<br>
   **consoles** *(currently only Nestopia/NES)*<br>
 
 ### Usage:
