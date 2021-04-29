@@ -43,11 +43,11 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * true
   * false (*default*)
 
-### Screen Width:
+### Screen Width (optional):
   Uneeded/ignored if curvature is true.
   * any width (*default=1920*)
 
-### Screen Height:
+### Screen Height (optional):
   Uneeded/ignored if curvature is true.
   * any height (*default=1080*)
 
