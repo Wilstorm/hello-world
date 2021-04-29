@@ -9,7 +9,7 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
   mame2015-libretro *(based on MAME 0.160)*<br>
   mame2016-libretro *(based on MAME 0.174)*<br>
   fbalpha2012-libretro *(based on FB Alpha 0.2.97.30)*<br>
-  fbneo-libretro *(based on FinalBurn Neo current ver.)*<br>  
+  fbneo-libretro *(based on FinalBurn Neo current ver.)*<br>
   consoles *(currently only Nestopia/NES)*<br>
 
 ### Usage:
@@ -24,7 +24,7 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * -x \<*screen width*\>
   * -y \<*screen height*\>
 
-### Core:
+### Core (required):
   * mame2000
   * mame2003
   * 2003plus
@@ -35,21 +35,21 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * fbneo
   * consoles
 
-### Shader:
+### Shader (optional):
   * crtpi (*default*)
   * zfast
 
-### Curvature:
+### Curvature (optional):
   * true
   * false (*default*)
 
 ### Screen Width:
   Uneeded/ignored if curvature is true.
-  * screen width (*default=1920*)
+  * any width (*default=1920*)
 
 ### Screen Height:
   Uneeded/ignored if curvature is true.
-  * screen height (*default=1080*)
+  * any height (*default=1080*)
 
 ## Examples:
 
