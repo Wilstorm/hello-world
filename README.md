@@ -36,11 +36,16 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
   * Nestopia/NES = *consoles*
 
 ### Shader:
+<<<<<<< HEAD
   * *crtpi* (default)
+=======
+  * *crtpi* (*default*)
+>>>>>>> 335e6bbdabbb60368a7e03f54b4d4963b2a04f0e
   * *zfast*
 
 ### Curvature:
   * *true*
+<<<<<<< HEAD
   * *false* (default)
 
 ### Screen Width:
@@ -48,6 +53,15 @@ python pi_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*
 
 ### Screen Height:
   * *any height* (default=1080 -- *uneeded/ignored if curvature is true*)
+=======
+  * *false* (*default*)
+
+### Screen Width:
+  * any width (*default=1920 -- uneeded/ignored if curvature is true*)
+
+### Screen Height:
+  * any height (*default=1080 -- uneeded/ignored if curvature is true*)
+>>>>>>> 335e6bbdabbb60368a7e03f54b4d4963b2a04f0e
 
 ## Examples:
 
