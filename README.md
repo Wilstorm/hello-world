@@ -2,7 +2,7 @@
 
 This script creates cfg files for optimum shader appearence for use with RetroPie. Works with the following cores:
 
-  mame2000-libretro *(based on MAME 0.37b5)*<br>
+  **mame2000-libretro** *(based on MAME 0.37b5)*<br>
   mame2003-libretro *(based on MAME 0.78)*<br>
   mame2003-plus-libretro *(based on MAME 0.78 + additions)*<br>
   mame2010-libretro *(based on MAME 0.139)*<br>
@@ -64,6 +64,8 @@ Clone into a directory, navigate to that directory from a command prompt, and th
   ```python pi_shader_configs.py 2003plus -s zfast -c true```  
 
   ```python pi_shader_configs.py fbneo -s crtpi -c false -x 1920 -y 1080```  
+
+  ```python pi_shader_configs.py fbneo```  
 
 This will create a folder with the resolution, i.e., *1920x1080* (or *curvature*). Beneath that folder will be another subfolder with the core name, i.e., *MAME 2003 (0.78)*. The individual cfg files are stored in the core subfolder. When the script completes it will print the path where you should transfer the files within RetroPie.
 
