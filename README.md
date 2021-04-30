@@ -29,6 +29,7 @@ python retropie_shader_configs.py -h
   * -y \<*screen height*\>
 
 ### Core (required):
+  Choose which core to generate shaders.
   * mame2000
   * mame2003
   * 2003plus
@@ -40,10 +41,12 @@ python retropie_shader_configs.py -h
   * consoles
 
 ### Shader (optional):
+  Choose which shader to apply.
   * crtpi (*default*)
   * zfast
 
 ### Curvature (optional):
+  Use a curvature or standard shader.
   * true
   * false (*default*)
 
@@ -54,6 +57,10 @@ python retropie_shader_configs.py -h
 ### Screen Height (optional):
   Uneeded/ignored if curvature is true.
   * any height (*default=1080*)
+
+### Help (optional):
+  Use without parameters for basic help information.
+  * -h
 
 ## Examples:
 
