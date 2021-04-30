@@ -105,7 +105,9 @@ Just a quick note on the *Type* field in the resolution databases.
 Vector games (i.e., ```asteroids``` or ```tempest```) are included in some of the database files but typically are not used in conjunction with shaders. The *Type* field is used to identify and disable them.
 
 ### Scale Factor:
-Inside the cfg files you'll find the calculated scale factor (nonapplicable for curvature shaders). Typically if the scale factor is less than 3 the shaders won't look very pleasant and are disabled in the cfg files. You're more than welcome to enable them for a particular game to decide for yourself. A few examples of this are ```rampage``` and ```popeye``` that both have scale factors below 3.
+Inside the cfg files you'll find the calculated scale factor (nonapplicable for curvature shaders). Typically if the scale factor is less than 3 the shaders won't look very pleasant and are disabled in the cfg files. See the .csv log file, generated in the script folder, to see which games have a scale factor less than 3.
+
+You're more than welcome to enable them for a particular game to decide for yourself. A few examples of this are ```rampage``` and ```popeye``` that both have scale factors below 3.
 
 ## Miscellaneous:
 
