@@ -29,7 +29,7 @@ python retropie_shader_configs.py -h
   * -h (*show help information*)
 
 ### Core (required):
-  Choose which core to generate shaders.
+  Choose core to generate shaders.
   * mame2000
   * mame2003
   * 2003plus
@@ -41,12 +41,12 @@ python retropie_shader_configs.py -h
   * consoles
 
 ### Shader (optional):
-  Choose which shader to apply.
+  Choose shader to apply.
   * crtpi (*default*)
   * zfast
 
 ### Curvature (optional):
-  Use a curvature or standard shader.
+  Use curvature (true) or standard shader (false).
   * true
   * false (*default*)
 
