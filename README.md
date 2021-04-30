@@ -20,6 +20,7 @@ or
 
 python retropie_shader_configs.py -h
 
+## Parameters:
   Core is a required parameter; the rest are optional.
   * \<*core*\>
   * -s \<*shader*\>
@@ -27,9 +28,7 @@ python retropie_shader_configs.py -h
   * -x \<*screen width*\>
   * -y \<*screen height*\>
 
-## Parameters:
 ### Core (required):
-  Choose which core to generate shaders.
   * mame2000
   * mame2003
   * 2003plus
