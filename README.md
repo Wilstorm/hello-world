@@ -14,7 +14,7 @@ This script creates cfg files for optimum shader appearence for use with RetroPi
 
 ### Usage:
 
-python retropie_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*screen width*\> -y \<*screen height*\>
+python retropie_shader_configs.py \<*core*\> -s \<*shader*\> -c \<*curvature*\> -x \<*screen width*\> -y \<*screen height*\> -o \<*orientation*\>
 
 or
 
@@ -26,10 +26,11 @@ python retropie_shader_configs.py -h
   * -c \<*curvature*\>
   * -x \<*screen width*\>
   * -y \<*screen height*\>
+  * -o \<*orientation*\>
   * -h (*show help information*)
 
 ### Core (required):
-  Choose core to generate shaders.
+  Select core for shader.
   * mame2000
   * mame2003
   * 2003plus
@@ -41,12 +42,12 @@ python retropie_shader_configs.py -h
   * consoles
 
 ### Shader (optional):
-  Choose shader to apply.
+  Select shader to apply.
   * crtpi (*default*)
   * zfast
 
 ### Curvature (optional):
-  Use curvature (true) or standard shader (false).
+  Use curvature shader (true) or standard shader (false).
   * true
   * false (*default*)
 
@@ -58,6 +59,12 @@ python retropie_shader_configs.py -h
   Uneeded/ignored if curvature is true.
   * any height (*default=1080*)
 
+### Orientation (optional):
+  Select game orientation--i.e., horizontal games only, vertical games only or all games
+  * horizontal
+  * vertical
+  * all (*default*)
+
 ### Help (optional):
   Use seperately to show basic help information.
   * -h
@@ -68,17 +75,17 @@ Clone into a directory, navigate to that directory from a command prompt, and th
 
   ```python retropie_shader_configs.py mame2003 -s crtpi -x 1920 -y 1080```  
 
-  ```python retropie_shader_configs.py mame2003 -s crtpi -c true```  
+  ```python retropie_shader_configs.py mame2003 -s crtpi -c true -o horizontal```  
 
-  ```python retropie_shader_configs.py 2003plus -s zfast -x 1280 -y 720```  
+  ```python retropie_shader_configs.py 2003plus -s zfast -x 1280 -y 720 -o vertical```  
 
   ```python retropie_shader_configs.py 2003plus -s zfast -c true```  
 
-  ```python retropie_shader_configs.py fbneo -s crtpi -c false -x 1920 -y 1080```  
+  ```python retropie_shader_configs.py fbneo -s crtpi -c false -x 1920 -y 1080 -o all```  
 
   ```python retropie_shader_configs.py fbneo```  
 
-This will create a folder with the resolution, i.e., *1920x1080* (or *curvature*). Beneath that folder will be another subfolder with the core name, i.e., *MAME 2003 (0.78)*. The individual cfg files are stored in the core subfolder. When the script completes it will print the path where you should transfer the files within RetroPie.
+This will create a folder with the resolution, i.e., *1920x1080* (or *curvature*). Beneath that folder will be another subfolder with the core name, i.e., *MAME 2003 (0.78)*. Under the core folder the individual cfg files will be stored in one of three folders named horizontal, vertical or all. When the script completes it will print the path where you should transfer the files within RetroPie.
 
 There's also a bat file (retropie_shader_configs.bat) you may use to generate the cfg files. It will generate the cfg and zip files containing the same information in the root. You may modify the bat file to fit you needs for different cores, shaders and resolutions. Take a look at the bat file for examples, it's fairly self-explanatory.
 
