@@ -94,7 +94,7 @@ For information and an explanation on how the cfg files improve shaders see the 
 ## Additional Information:
 
 ### Resolution Databases:
-Due to updates there may be certain cores with missing, incorrect or extraneous information in the resolution db files (located in the *resolution_db* folder). They are comma delimited text files that are very easy to modify. You can update, delete or add new entries but keep only one game entry per line. You're more than welcome to submit a PR with any corrections or if you prefer to just leave a message, open an issue with the correct information and I'll update the DB files. Whatever you're more comfortable with works.
+Due to updates or errors in the XML files there may be certain cores with missing, incorrect or extraneous information in the resolution db files (located in the *resolution_db* folder). They are comma delimited text files that are very easy to modify. You can update, delete or add new entries but keep only one game entry per line. You're more than welcome to submit a PR with any corrections or if you prefer to just leave a message, open an issue with the correct information and I'll update the DB files. Whatever you're more comfortable with works.
 
 Below is an example from a resolution db file for the game ```1942```. The fields in order:
 
@@ -102,7 +102,7 @@ Below is an example from a resolution db file for the game ```1942```. The field
 
   ```1942,256,224,raster,vertical,3,4```
 
-If the information looks incorrect I usually check the DAT first (if it contains complete XML info), followed by the core drivers and if all else fails search the Arcade Database - ArcadeItalia located [here](http://adb.arcadeitalia.net/) for the good information.
+If the information looks incorrect I usually check the DAT/XML first (if it contains complete XML info), followed by the core drivers and if all else fails search the Arcade Database - ArcadeItalia located [here](http://adb.arcadeitalia.net/) for the good information.
 
 Also worth noting, I removed all entries with the *\<isbios\>*, *\<isdevice\>* or *\<ismechanical\>* tags. There are some other miscellaneous drivers/entries in the newer DAT's that aren't arcade machine related and will be removed in time.
 
